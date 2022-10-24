@@ -563,10 +563,7 @@ window.adjust_selection=function(x,y,width,height)
 }
 function add_image(url)
 {
-    fabric.Image.fromURL(url,function(img){
-        window.overlay.add(img);
-        window.overlay.setActiveObject(img);
-    },{left:100,top:100});
+ 
 }
 function export_image()
 {
